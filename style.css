@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+        /* Navigation */
+
+header{
+    width: 100%;
+    float: left;
+}
+
+.logo-img{
+    padding: 10px 0px;
+}
+
+a.nav-link {
+    text-transform: uppercase;
+    margin: 0px 6px;
+    color: gray;
+}
+
+
+
+
+                /* hero section */
+
+.hero{
+    width: 100%;
+    float: left;
+    background: url(img/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.hero-text{
+
+}
+
+.hero-text h2 {
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    padding-top: 205px;
+}
+
+.hero-text h4 {
+    color: white;
+    font-weight: 498px;
+    font-size: 33px;
+    font-style: th;
+    padding-top: 11px;
+    font-style: italic;
+    padding-bottom: 24px;
+}
+
+.hero-btn {
+    border: none;
+    color: white;
+    background: #99c50a;
+    padding: 15px 27px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 26px;
+    margin-bottom: 163px;
+}
+
+                /* detail section */
+
+.detail{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+}
+
+.detail-one{
+
+}
+
+.detail-img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 46px;
+}
+
+.detail-one h2 {
+    font-size: 31px;
+    color: #515151;
+    font-weight: bold;
+    text-align: center;
+    line-height: 54.1px;
+    text-transform: uppercase;
+    padding: 26px 0px;
+}
+
+.detail-another {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.detail-another p {
+    font-size: 20px;
+    color: gray;
+}
+
+                /* contact section */
+
+.contact{
+    width: 100%;
+    float: left;
+    padding: 24px 0px;
+}
+
+.contact-1 {
+    background-color: #e2f8ff;
+    padding: 40px 60px;
+}
+
+.contact-img{
+    float: left;
+    width: 50%;
+}
+
+.sof-img {
+    margin-left: 140px;
+    margin-top: 46px;
+}
+.contact-text{
+    float: left;
+    width: 50%;
+}
+
+.contact-text h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 0px;
+    margin-top: 0px;
+}
+
+.contact-text p {
+    line-height: 1.9em;
+}
+
+.contact-btn {
+    border: none;
+    background: #26a6d1;
+    padding: 9px 13px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.contact-2 {
+    background-color: #f5f9eb;
+    padding: 40px 60px;
+}
+
+.contact-img-2{
+    float: left;
+    width: 30%;
+}
+
+.contact-btn-2{
+    border: none;
+    background: #add136;
+    padding: 9px 13px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+img.img-fluid.wallet-img {
+    margin-top: 61px;
+    margin-left: 36px;
+}
+
+                /* project section */
+.project{
+    width: 100%;
+    float: left;
+    padding: 24px 0px;
+}
+
+.project-head{
+    padding: 24px 0px;
+}
+
+.project-head h2 {
+    font-size: 29px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.project-head p {
+    word-spacing: 0.2em;
+    color: grey;
+}
+
+.project-btn {
+    border: 1px solid gray;
+    padding: 11px 15px;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 13px;
+    font-size: 14px;
+    float: right;
+    margin-top: 39px;
+}
+
+.project-2nd{
+    padding: 24px 0px;
+}
+
+.project-card{
+
+}
+
+.project-card h2 {
+    font-size: 21px;
+    font-weight: bold;
+    /* text-align: center; */
+    padding: 10px 0px;
+    margin: 0 18px;
+}
+
+.project-card p {
+    color: gray;
+    text-align: justify;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.prjct-img {
+    position: relative;
+    width: 100%;
+}
+
+.card-btn {
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    background: #26a6d1;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 193px;
+    left: 202px;
+}
+
+.card-text {
+    border: 1px solid #e6dede;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #f9f9f9;
+    padding-bottom: 20px;
+}
+
+.card-text h5{
+    padding-top: 53px;
+}
+
+.card-txt-left {
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 23px;
+    margin-bottom: 15px;
+}
+
+.card-txt-right {
+    font-size: 13px;
+    display: inline-block;
+    float: right;
+    margin-right: 32px;
+}
+
+.card-text span {
+    border-bottom: 1px solid #d5c7c7;
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    /* padding-bottom: 6px; */
+    margin-bottom: 7px;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 16px;
+    padding: 0px 5px;
+    margin-left: 105px;
+}
+
+.fa-caret-right:before {
+    content: "\f0da";
+    color: #add136;
+    /* width: 22px; */
+    /* display: block; */
+    font-size: 33px;
+    padding: 0px 5px
+}
+
+                /* last-banner section */
+
+.last-banner{
+    width: 100%;
+    float: left;
+    padding: 24px 0px;
+}
+
+.col-md-12.banner-img {
+    padding: 24px 0px;
+}
+
+img.img-fluid.lst-banner {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+                /* footer section */
+
+footer{
+    width: 100%;
+    float: left;
+    padding: 24px 0px;
+    border-top: 2px solid #d3cece;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #b5b5b5;
+}
+
+        /*  media quary for mobile device */
+
+@media (min-width:320px) and (max-width:576px) {
+    .detail-another {
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    .contact-1 {
+        background-color: #e2f8ff;
+        padding: 24px 0px;
+    }
+
+    .sof-img {
+        margin-left: 76px;
+        margin-top: 45px;
+        width: 48%;
+    }
+
+    .contact-text {
+        float: left;
+        width: 47%;
+        margin-right: 14px;
+    }
+
+    .contact-text h2 {
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 9px 0px;
+        margin-top: 0px;
+        font-size: 28px;
+    }
+
+    .contact-text p {
+        line-height: 1.9em;
+        font-size: 15px;
+    }
+
+    .contact-btn {
+        border: none;
+        background: #26a6d1;
+        padding: 9px 13px;
+        color: white;
+        font-weight: bold;
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .contact-2 {
+        background-color: #f5f9eb;
+        padding: 24px 0px;
+    }
+
+    img.img-fluid.wallet-img {
+        margin-top: 61px;
+        margin-left: 12px;
+        width: 75%;
+        display: block;
+    }
+
+    .contact-text {
+        float: right;
+        width: 47%;
+        margin-right: 3px;
+    }
+
+    img.img-fluid.wallet-img {
+        margin-top: 42px;
+        margin-left: 77px;
+        width: 75%;
+        display: block;
+       
+    }
+
+    .contact-text h2 {
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 5px 0px;
+        margin-top: 0px;
+        font-size: 28px;
+    }
+
+    .contact-btn-2 {
+        border: none;
+        background: #add136;
+        padding: 9px 13px;
+        color: white;
+        font-weight: bold;
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .project-head {
+        padding: 0px 0px;
+    }
+
+    .project {
+        width: 100%;
+        float: left;
+        padding: 9px 0px;
+    }
+
+    .project-head h2 {
+        font-size: 26px;
+        font-weight: bold;
+        padding: 0px 0px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .project-head p {
+        word-spacing: 0.2em;
+        color: grey;
+        text-align: center;
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 19px;
+    }
+
+    .project-btn {
+        border: 1px solid gray;
+        padding: 11px 15px;
+        color: gray;
+        text-transform: uppercase;
+        font-weight: bold;
+        background: transparent;
+        border-radius: 13px;
+        font-size: 13px;
+        margin-top: 7px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    .card-text {
+        border: 1px solid #e6dede;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        background: #f9f9f9;
+        padding-bottom: 17px;
+    }
+
+    .card-text a {
+        text-decoration: none;
+        color: #6c6c6c;
+        font-size: 16px;
+        padding: 9px 5px;
+        margin-left: 117px;
+    }
+
+    .project-card {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .fa-caret-right:before {
+        content: "\f0da";
+        color: #add136;
+        /* width: 22px; */
+        /* display: block; */
+        font-size: 33px;
+        padding: 0px 5px;
+        margin-left: 21px;
+        /* margin-top: 11px; */
+    }
+
+    .card-btn {
+        color: white;
+        border: none;
+        padding: 10px 18px;
+        background: #26a6d1;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        top: 306px;
+        left: 325px;
+    }
+
+    .last-banner {
+        width: 100%;
+        float: left;
+        padding: 15px 0px;
+    }
+    
+    .col-md-12.banner-img {
+        padding: 7px 0px;
+        margin-bottom: 15px;
+    }
+
+    .detail-img {
+        display: block;
+        margin: 0 auto;
+        padding-top: 24px;
+        margin-bottom: 7px;
+    }
+
+    .detail-one h2 {
+        font-size: 24px;
+        color: #515151;
+        font-weight: bold;
+        text-align: center;
+        line-height: 37.1px;
+        text-transform: uppercase;
+        padding: 16px 0px;
+    }
+
+    .detail-another p {
+        font-size: 15px;
+        color: gray;
+    }
+
+    .detail {
+        width: 100%;
+        float: left;
+        padding: 15px 0px;
+    }
+
+    .hero-text h2 {
+        font-weight: bold;
+        font-size: 37px;
+        color: white;
+        padding-top: 47px;
+        width: 90%;
+        display: margin;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .hero-text h4 {
+        color: white;
+        font-weight: 498px;
+        font-size: 27px;
+        font-style: th;
+        padding-top: 22px;
+        font-style: italic;
+        padding-bottom: 5px;
+    }
+
+    .hero-btn {
+        border: none;
+        color: white;
+        background: #99c50a;
+        padding: 15px 27px;
+        font-weight: bold;
+        border-radius: 8px;
+        margin-top: 26px;
+        margin-bottom: 90px;
+        font-size: 13px;
+    }
+
+    img.img-fluid.logo-img {
+        max-width: 80%;
+        height: auto;
+    }
+}
